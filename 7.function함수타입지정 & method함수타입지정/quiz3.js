@@ -14,5 +14,4 @@
         return result;
     };
     console.log(makeFunction('010-1111-2222', cutZero, removeDash));
-    ;
 }

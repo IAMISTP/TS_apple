@@ -18,10 +18,10 @@ function lastSubject({ subject }: Subject) {
   } else if (Array.isArray(subject)) {
     return subject[subject.length - 1];
   } else {
-    return '없쪄'
+    return '없쪄';
   }
 }
 console.log(lastSubject(철수쌤));
 console.log(lastSubject(영희쌤));
 console.log(lastSubject(민수쌤));
-console.log(lastSubject({hello:'hi'});
+// console.log(lastSubject({hello:'hi'});

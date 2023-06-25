@@ -9,7 +9,6 @@
     const girl2 = {
         name: '엠버',
     };
-    girl2.name = '유라'; //readonly 는 속성을 변경할수 없다 읽기만 가능
     let circle = {
         width: 20,
     };

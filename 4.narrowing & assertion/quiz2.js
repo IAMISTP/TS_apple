@@ -23,4 +23,4 @@ function lastSubject({ subject }) {
 console.log(lastSubject(철수쌤));
 console.log(lastSubject(영희쌤));
 console.log(lastSubject(민수쌤));
-console.log(lastSubject({ hello: 'hi' }));
+// console.log(lastSubject({hello:'hi'});

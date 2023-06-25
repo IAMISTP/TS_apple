@@ -8,7 +8,7 @@
 
   let 회원정보 = {
     name: 'kim',
-    plus(a, b) {
+    plus(a: number, b: number): number {
       return a + b;
     },
     printName: (name: string) => {

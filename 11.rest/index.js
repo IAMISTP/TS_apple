@@ -13,7 +13,6 @@
     let [a, b] = ['안녕', 100];
     console.log(a);
     console.log(b);
-    let person = { student: true, age: 20 };
     function 함수({ student, age }) {
         console.log(student, age);
     }

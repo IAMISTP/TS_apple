@@ -4,8 +4,8 @@
     // 오늘 배운 tuple 타입으로 타입지정합시다.
     // 쉬워서 답은 생략합니다.
     // (예시) [ '동서녹차', 4000, true ] 이런 자료 만들고 타입지정하라는 소리입니다.
-    function arrayType(...a) {
-        console.log(a);
+    function arrayType(x) {
+        console.log(x);
     }
     arrayType(["동서녹차", 4000, true]);
 }
